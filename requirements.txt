@@ -1,0 +1,13 @@
+qiskit
+qiskit_aer
+qiskit_machine_learning
+qiskit_algorithms
+qiskit_ibm_runtime
+amazon-braket-sdk
+qiskit_braket_provider
+cirq
+numpy
+scipy
+matplotlib
+pandas
+scikit-learn
