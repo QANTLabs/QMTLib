@@ -131,12 +131,8 @@ We welcome contributions to improve QMT! To contribute:
 
 Please ensure that your code follows the existing style and includes tests if applicable.
 
+## Contribution
+Contributions are welcome! Please read the [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines.
+
 ## License
-
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-<!-- Author:    -->
-<!-- Email:   -->
-GitHub: [https://github.com/QANTLabs/QMT](https://github.com/QANTLabs/QMT)
