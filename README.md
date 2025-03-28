@@ -1,6 +1,6 @@
-# Quantum Model Trainer (QMT)
+# QMLLib - Quantum Machine Learning Python Library
 
-QMT is a Python library designed for training and evaluating quantum and hybrid quantum-classical machine learning models. It integrates with popular quantum computing frameworks such as Qiskit, Amazon Braket, and Cirq, enabling the development of quantum-enhanced machine learning algorithms.
+QMLLib is a Python library designed for training and evaluating quantum and hybrid quantum-classical machine learning models. It integrates with popular quantum computing frameworks such as Qiskit, Amazon Braket, and Cirq, enabling the development of quantum-enhanced machine learning algorithms.
 
 ## Features
 
@@ -115,21 +115,10 @@ This example demonstrates how to create a quantum machine learning classificatio
 1. **Run the example**:
 
    ```bash
-   python example.py
+   python ./examples/classification.py
    ```
 
    This will execute the classification task, train the model, and display the results.
-
-## Contributing
-
-We welcome contributions to improve QMT! To contribute:
-
-1. Fork the repository.
-2. Create a new branch.
-3. Make your changes.
-4. Submit a pull request.
-
-Please ensure that your code follows the existing style and includes tests if applicable.
 
 ## Contribution
 Contributions are welcome! Please read the [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines.
