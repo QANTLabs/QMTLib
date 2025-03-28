@@ -1,6 +1,6 @@
-# QMLLib - Quantum Machine Learning Python Library
+# QMTLib - Quantum Machine Learning Python Library
 
-QMLLib is a Python library designed for training and evaluating quantum and hybrid quantum-classical machine learning models. It integrates with popular quantum computing frameworks such as Qiskit, Amazon Braket, and Cirq, enabling the development of quantum-enhanced machine learning algorithms.
+QMTLib is a Python library designed for training and evaluating quantum and hybrid quantum-classical machine learning models. It integrates with popular quantum computing frameworks such as Qiskit, Amazon Braket, and Cirq, enabling the development of quantum-enhanced machine learning algorithms.
 
 ## Features
 
@@ -78,7 +78,7 @@ def quantum_ml_example():
     y_train, y_test = y[:train_size], y[train_size:]
     
     # Create and configure the quantum ML framework
-    qml = QuantumMLFramework(
+     = QuantumMLFramework(
         device='ibm_qiskit',  # Specify device platform
         task_type='classification',
         n_qubits=feature_dim,
@@ -92,20 +92,20 @@ def quantum_ml_example():
     )
     
     # Build, train and evaluate the model
-    qml.build_model(input_dim=feature_dim)
-    qml.fit(X_train, y_train)
-    score = qml.score(X_test, y_test)
+    .build_model(input_dim=feature_dim)
+    .fit(X_train, y_train)
+    score = .score(X_test, y_test)
     
     # Plot training progress
-    qml.plot_training_progress()
+    .plot_training_progress()
     
-    return qml, score
+    return , score
 
 
 if __name__ == "__main__":
     # Run classification example with IBM Qiskit
     print("Running Quantum Classification Example with IBM Qiskit...")
-    qml_cls, cls_score = quantum_ml_example()
+    _cls, cls_score = quantum_ml_example()
 ```
 
 This example demonstrates how to create a quantum machine learning classification task using the QMT library. The example uses IBM Qiskit for quantum computation, but similar implementations can be made for AWS Braket and Google Cirq.
