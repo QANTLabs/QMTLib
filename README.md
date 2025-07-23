@@ -9,7 +9,7 @@ QMTLib is a Python library designed for training and evaluating quantum and hybr
 - **Extensive ML Integration**: Use popular machine learning libraries like `scikit-learn` and `pandas` in conjunction with quantum models to enhance your workflows.
 - **Quantum Circuits for ML**: Easily integrate quantum circuits into your machine learning pipelines using Qiskit’s quantum computing capabilities.
 
-Here’s the updated installation section with local build instructions:
+Here’s how to install QMTLib, including local build instructions:
 
 ---
 
